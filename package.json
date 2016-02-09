@@ -1,0 +1,29 @@
+{
+  "name": "publications-api",
+  "version": "1.0.0",
+  "description": "Galvanize assessment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillaryskye/publications-api.git"
+  },
+  "author": "Hillary Skye",
+  "license": "ISC",
+  "homepage": "https://github.com/hillaryskye/publications-api",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "monk": "^1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hillaryskye/publications-api/issues"
+  },
+  "devDependencies": {}
+}
