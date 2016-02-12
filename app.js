@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json());
 
-app.use('/', publications);
+app.use('/api/publications', publications);
 
 app.listen(process.env.PORT || 8080);
 console.log('Server started on localhost://8080');
